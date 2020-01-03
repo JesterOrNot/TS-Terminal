@@ -1,0 +1,28 @@
+{
+  "name": "ts-terminal",
+  "version": "1.0.0",
+  "description": "Typescript terminal",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc src/main.ts --outFile out/tsterm.js --module system && node out/tsterm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesterOrNot/TS-Terminal.git"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "Sean Hellum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesterOrNot/TS-Terminal/issues"
+  },
+  "homepage": "https://github.com/JesterOrNot/TS-Terminal#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.2"
+  }
+}
